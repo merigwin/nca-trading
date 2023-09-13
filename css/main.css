@@ -1,0 +1,11 @@
+a,
+a:visited {
+    text-transform: none;
+    color: #273f54;
+    font-weight: normal;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}

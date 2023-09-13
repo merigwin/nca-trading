@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&display=swap');
+
+header .nav-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    padding: 8px;
+    font-family: 'Passion One', cursive;
+    font-size: 20px;
+}
+
+header {
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+
+.nav-bar > a {
+    margin-left: 16px;
+    width: 100px;
+    margin-right: auto;
+}
+
+.nav-bar img {
+    object-fit: cover;
+}
+
+nav ul li {
+    display: inline-flex;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-right: 16px;
+}
+
+nav {
+    width: 300px;
+}
