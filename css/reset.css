@@ -1,3 +1,5 @@
+/* Reset geral das configurações das páginas */
+
 * {
     margin: 0;
     padding: 0;
@@ -5,7 +7,8 @@
 }
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Deja Vu Sans';
+    font-weight: normal;
 }
 
 ul li {
