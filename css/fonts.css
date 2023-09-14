@@ -1,0 +1,19 @@
+/* Fontes usadas no projeto */
+
+@font-face {
+    font-family: 'Dic Sans';
+    src: url('../assets/fonts/Dic-Sans/Dic-Sans-Bold.otf') format('opentype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Dic Sans';
+    src: url('../assets/fonts/Dic-Sans/Dic-Sans-Medium.otf') format('opentype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Deja Vu Sans';
+    src: url('../assets/fonts/Deja-Vu-Sans/DejaVuSans.ttf') format('truetype');
+    font-weight: normal;
+}
