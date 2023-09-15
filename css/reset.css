@@ -6,7 +6,7 @@
     border: 0;
 }
 
-body {
+body, input, label {
     font-family: 'Deja Vu Sans';
     font-weight: normal;
 }
