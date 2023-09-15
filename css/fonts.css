@@ -17,3 +17,9 @@
     src: url('../assets/fonts/Deja-Vu-Sans/DejaVuSans.ttf') format('truetype');
     font-weight: normal;
 }
+
+@font-face {
+    font-family: 'Deja Vu Sans';
+    src: url('../assets/fonts/Deja-Vu-Sans/DejaVuSans-ExtraLight.ttf');
+    font-weight: 300;
+}
