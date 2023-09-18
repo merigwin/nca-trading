@@ -1,4 +1,5 @@
 /* Fontes usadas no projeto */
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
 
 @font-face {
     font-family: 'Dic Sans';
@@ -16,6 +17,12 @@
     font-family: 'Deja Vu Sans';
     src: url('../assets/fonts/Deja-Vu-Sans/DejaVuSans.ttf') format('truetype');
     font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Deja Vu Sans';
+    src: url('../assets/fonts/Deja-Vu-Sans/DejaVuSans-Book.ttf');
+    font-weight: 600;
 }
 
 @font-face {
