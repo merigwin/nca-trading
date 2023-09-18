@@ -1,4 +1,13 @@
 /* ------------------------------------------------------------
+Marcador de página
+------------------------------------------------------------*/
+
+.current-page a {
+        text-decoration: underline;
+        text-underline-offset: 8px;    
+}
+
+/* ------------------------------------------------------------
 Seção de boas vindas
 ------------------------------------------------------------ */
 
@@ -18,7 +27,7 @@ Seção de boas vindas
 
 .wc-content h1 {
     color: #ffffff;
-    font-size: 40px;
+    font-size: 48px;
     font-weight: bold;
 }
 
@@ -58,8 +67,9 @@ Seção inicial
 }
 
 .articles img {
-    height: 100%;
-    width: 606px;
+    height: 400px;
+    width: 600px;
+    object-fit: cover;
 }
 
 .text-articles {
@@ -88,6 +98,10 @@ Seção inicial
 /* ------------------------------------------------------------
 Segunda seção
 ------------------------------------------------------------ */
+
+.article-two {
+    flex-direction: row-reverse;
+}
 
 /* ------------------------------------------------------------
 Terceira seção
@@ -125,13 +139,78 @@ Seção final
 }
 
 .last-title h2 {
+    font-family: 'Caveat', cursive;
     padding-top: 64px;
     font-size: 48px;
-    color: #edf2f7;
+    color: #f6fafd;
     text-align: center;
     text-shadow: 2px 2px 6px #3a3a3a8e;
 }
 
 .subtitle {
     width: 40%;
+}
+
+/* ------------------------------------------------------------
+Formulário
+------------------------------------------------------------ */
+
+.form-home {
+    height: 744px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-home h2 {
+    padding-bottom: 48px;
+    text-align: center;
+    font-size: 52px;
+    font-weight: bold;
+}
+
+.contact label,
+.contact input,
+.contact textarea {
+    font-family: 'Deja Vu Sans';
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.contact input,
+.contact textarea {
+    font-weight: 300;
+    margin-top: 8px;
+    margin-bottom: 24px;
+    padding: 14px;
+    width: 380px;
+    border: solid 0.5px #425970;
+    border-radius: 4px;
+}
+
+.contact textarea {
+    resize: none;
+    height: 100px;
+}
+
+.submit-button {
+    display: flex;
+    justify-content: center;
+}
+
+.form-home button {
+    font-family: 'Dic Sans';
+    font-weight: bold;
+    font-size: 22px;
+    padding: 12px 32px;
+    border-radius: 4px;
+    background-color: #ffffff00;
+    border: solid 1px #425970;
+    color: #425970;
+}
+
+.form-home button:hover {
+    cursor: pointer;
+    background-color: #425970;
+    color: #ffffff;
 }
