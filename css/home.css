@@ -191,6 +191,11 @@ Formulário
     border-radius: 4px;
 }
 
+.contact input:focus,
+.contact textarea:focus {
+    outline-color: #6c839c4d;
+}
+
 .contact textarea {
     resize: none;
     height: 100px;
