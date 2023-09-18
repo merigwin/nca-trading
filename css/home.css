@@ -3,8 +3,8 @@ Marcador de página
 ------------------------------------------------------------*/
 
 .current-page a {
-        text-decoration: underline;
-        text-underline-offset: 8px;    
+    text-decoration: underline;
+    text-underline-offset: 8px;
 }
 
 /* ------------------------------------------------------------
@@ -173,8 +173,11 @@ Formulário
 .contact input,
 .contact textarea {
     font-family: 'Deja Vu Sans';
-    font-weight: 600;
     font-size: 16px;
+}
+
+.contact label {
+    font-weight: 600;
 }
 
 .contact input,
