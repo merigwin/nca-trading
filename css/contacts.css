@@ -1,0 +1,8 @@
+/* ------------------------------------------------------------
+Marcador de página
+------------------------------------------------------------*/
+
+.current-page a {
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
