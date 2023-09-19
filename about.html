@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./css/nav.css" />
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./css/about.css" />
+    <link rel="stylesheet" href="./css/form.css" />
     <link rel="stylesheet" href="./css/footer.css" />
 </head>
 
@@ -95,8 +96,8 @@
             </article>
         </section>
 
-        <section>
-            <form>
+        <section class="form-home">
+            <form class="contact">
                 <h2>Contact us</h2>
 
                 <label>Name</label><br />
@@ -105,13 +106,14 @@
                 <label>Last name</label><br />
                 <input type="name" placeholder="Your last name" /><br />
 
-                <label>E-mail</label><br />
-                <input type="email" required="true" placeholder="Your email adress" /><br />
+                <label>E-mail*</label><br />
+                <input type="email" required placeholder="Your email adress" /><br />
 
-                <label>Message</label><br />
-                <input type="textarea" required="true" placeholder="Enter your message" /><br />
-
-                <button type="submit">Submit</button>
+                <label>Message*</label><br />
+                <textarea required placeholder="Enter your message"></textarea>
+                <div class="submit-button">
+                    <button type="submit">Submit</button>
+                </div>
             </form>
         </section>
     </main>
