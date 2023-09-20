@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./css/contacts.css" />
     <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="icon" type="image/x-icon" href="./assets/icon/favicon/ncaTrading-icon.ico">
 </head>
 
 <body>
@@ -35,38 +36,54 @@
     </header>
 
     <main>
-        <article>
-            <div class="article-title">
-                <h1>Contact us</h1>
-                <p>Get in touch with our team</p>
+        <div class="contact-main">
+            <div class="contact-page">
+                <div class="contact-section">
+                    <article>
+                        <div class="contact-title">
+                            <h1>Contact us</h1>
+                            <p>Get in touch with our team</p>
+                        </div>
+                        <div class="contact-info">
+                            <div class="info">
+                                <h3>Email</h3>
+                                <p>info@email.com</p>
+                            </div>
+                            <div class="info">
+                                <h3>Phone</h3>
+                                <p>123-156-7890</p>
+                            </div>
+                            <div class="info">
+                                <h3>Address</h3>
+                                <p>3721 Single Street<br />Quincy, MA 02169</p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <label>Name</label><br />
+                        <input type="name" placeholder="Your name" /><br />
+
+                        <label>Last name</label><br />
+                        <input type="name" placeholder="Your last name" /><br />
+
+                        <label>E-mail*</label><br />
+                        <input type="email" required placeholder="Your email adress" /><br />
+
+                        <label>Message*</label><br />
+                        <textarea required placeholder="Enter your message"></textarea>
+
+                        <div class="contact-button">
+                            <button type="submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
             </div>
-            <h3>Email</h3>
-            <p>info@email.com</p>
-
-            <h3>Phone</h3>
-            <p>123-156-7890</p>
-
-            <h3>Address</h3>
-            <p>3721 Single Street<br />Quincy, MA 02169</p>
-        </article>
-
-        <form>
-            <label>Name</label><br />
-            <input type="name" placeholder="Your name" /><br />
-
-            <label>Last name</label><br />
-            <input type="name" placeholder="Your last name" /><br />
-
-            <label>E-mail</label><br />
-            <input type="email" required="true" placeholder="Your email adress" /><br />
-
-            <label>Message</label><br />
-            <input type="textarea" required="true" placeholder="Enter your message" /><br />
-
-            <button type="submit">Submit</button>
-        </form>
-
-        <img src="#" alt="" />
+            <div class="contact-img">
+                <img src="./assets/images/chasing-m2pro-rov.jpg" alt="CHASING M2 PRO ROV" />
+            </div>
+        </div>
     </main>
 
     <footer>
