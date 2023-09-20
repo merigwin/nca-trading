@@ -9,7 +9,10 @@
     <link rel="stylesheet" href="./css/fonts.css" />
     <link rel="stylesheet" href="./css/nav.css" />
     <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/home.css" />
+    <link rel="stylesheet" href="./css/form.css" />
     <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="icon" type="image/x-icon" href="./assets/icon/favicon/ncaTrading-icon.ico">
 </head>
 
 <body>
@@ -19,7 +22,7 @@
                     width="100%"></a>
             <nav>
                 <ul>
-                    <li>
+                    <li class="current-page">
                         <a href="./home.html">HOME</a>
                     </li>
                     <li>
@@ -46,7 +49,7 @@
         <section class="sections sec-one">
             <article class="articles">
                 <img src="./assets/images/containers-photo.jpg" alt="Containers" />
-                <div class="text-right">
+                <div class="text-articles">
                     <h6>FIRST OF ALL</h6>
                     <h3>Welcome to NCA Trading</h3>
                     <p>Discover a wide range of high-quality equipment for various industries. We specialize in
@@ -62,57 +65,64 @@
         </section>
 
         <section class="sections sec-two">
-            <article class="articles">
-                <h6>NOT TO MENTION</h6>
-                <h3>Our Products</h3>
-                <p>Discover our diverse portfolio of agricultural drones, ROVs, construction and mining machines,
-                    forklifts, agricultural equipment, marine equipment, and construction materials. We offer
-                    innovative
-                    solutions
-                    that optimize operations, increase efficiency, and promote sustainability in various industries.
-                </p>
-                <!-- <img src="" alt="" /> -->
+            <article class="articles article-two">
+                <img src="./assets/images/dji-t20p-drone.jpg" alt="Drone DJI T20P" />
+                <div class="text-articles text-two">
+                    <h6>NOT TO MENTION</h6>
+                    <h3>Our Products</h3>
+                    <p>Discover our diverse portfolio of agricultural drones, ROVs, construction and mining machines,
+                        forklifts, agricultural equipment, marine equipment, and construction materials. We offer
+                        innovative
+                        solutions
+                        that optimize operations, increase efficiency, and promote sustainability in various industries.
+                    </p>
+                </div>
+
             </article>
         </section>
 
         <section class="sections sec-three">
             <article class="articles">
-                <h6>AND LET'S NOT FORGET</h6>
-                <h3>Why Choose NCA Trading</h3>
-                <p>At NCA Trading, we are driven by a profound love for technological innovation and a commitment to
-                    efficient and ethical business practices. Our aim is to provide our clients with high-quality
-                    equipment that
-                    optimizes their operations, increases efficiency, and promotes sustainability in every industry
-                    we
-                    serve.</p>
-                <!-- <img src="" alt="" /> -->
+                <img src="./assets/images/chasing-m2s-rov.jpeg" alt="ROV CHASING M2 S" />
+                <div class="text-articles">
+                    <h6>AND LET'S NOT FORGET</h6>
+                    <h3>Why Choose NCA Trading</h3>
+                    <p>We are driven by a profound love for technological innovation and a commitment to
+                        efficient and ethical business practices. Our aim is to provide our clients with high-quality
+                        equipment that
+                        optimizes their operations, increases efficiency, and promotes sustainability in every industry
+                        we
+                        serve.</p>
+                </div>
             </article>
         </section>
 
-        <section class="sections section-final">
-            <article>
-                <h3>About NCA Trading</h3>
-                <p>NCA Trading is a diversified equipment trading company based in Hong Kong, China. With a passion
-                    for
-                    technological innovation and a dedication to efficient and ethical business practices, we strive
-                    to
-                    provide our clients with high-quality equipment that optimizes their operations, increases
-                    efficiency, and
-                    promotes sustainability. Our portfolio includes a wide range of equipment for various
-                    industries,
-                    including
-                    agriculture, construction, mining, and marine.</p>
+        <section class="sections last-section">
+            <article class="articles last-article">
+                <div class="text-articles last-text">
+                    <h3>About NCA Trading</h3>
+                    <p>NCA Trading is a diversified equipment trading company based in Hong Kong, China. With a passion
+                        for
+                        technological innovation and a dedication to efficient and ethical business practices, we strive
+                        to
+                        provide our clients with high-quality equipment that optimizes their operations, increases
+                        efficiency, and
+                        promotes sustainability. Our portfolio includes a wide range of equipment for various
+                        industries,
+                        including
+                        agriculture, construction, mining, and marine.</p>
+                </div>
             </article>
         </section>
 
         <section class="last-title">
-            <div>
+            <div class="subtitle">
                 <h2>Innovative Solutions for a Sustainable Future</h2>
             </div>
         </section>
 
         <section class="form-home">
-            <form>
+            <form class="contact">
                 <h2>Contact us</h2>
 
                 <label>Name</label><br />
@@ -121,13 +131,14 @@
                 <label>Last name</label><br />
                 <input type="name" placeholder="Your last name" /><br />
 
-                <label>E-mail</label><br />
-                <input type="email" required="true" placeholder="Your email adress" /><br />
+                <label>E-mail*</label><br />
+                <input type="email" required placeholder="Your email adress" /><br />
 
-                <label>Message</label><br />
-                <input type="textarea" required="true" placeholder="Enter your message" /><br />
-
-                <button type="submit">Submit</button>
+                <label>Message*</label><br />
+                <textarea required placeholder="Enter your message"></textarea>
+                <div class="submit-button">
+                    <button type="submit">Submit</button>
+                </div>
             </form>
         </section>
     </main>

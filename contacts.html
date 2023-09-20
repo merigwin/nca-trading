@@ -4,24 +4,31 @@
 <head>
     <meta charset="UTF-8" />
     <title>Contacts | NCA Trading</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/fonts.css" />
+    <link rel="stylesheet" href="./css/nav.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/contacts.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="icon" type="image/x-icon" href="./assets/icon/favicon/ncaTrading-icon.ico">
 </head>
 
 <body>
     <header>
         <div class="nav-bar">
             <a href="./home.html"><img src="./assets/images/ncaTrading-officialBlack.png" alt="NCA Trading Logo"
-                    width="12%"></a>
+                    width="100%"></a>
             <nav>
                 <ul>
                     <li>
-                        <a href="./home.html">Home</a>
+                        <a href="./home.html">HOME</a>
                     </li>
                     <li>
-                        <a href="./about.html">About</a>
+                        <a href="./about.html">ABOUT</a>
                     </li>
-                    <li>
-                        <a href="./contacts.html">Contacts</a>
+                    <li class="current-page">
+                        <a href="./contacts.html">CONTACT</a>
                     </li>
                 </ul>
             </nav>
@@ -29,59 +36,70 @@
     </header>
 
     <main>
-        <article>
-            <header>
-                <h1>Contact us</h1>
-                <p>Get in touch with our team</p>
-            </header>
-            <h3>Email</h3>
-            <p>info@email.com</p>
+        <div class="contact-main">
+            <div class="contact-page">
+                <div class="contact-section">
+                    <article>
+                        <div class="contact-title">
+                            <h1>Contact us</h1>
+                            <p>Get in touch with our team</p>
+                        </div>
+                        <div class="contact-info">
+                            <div class="info">
+                                <h3>Email</h3>
+                                <p>info@email.com</p>
+                            </div>
+                            <div class="info">
+                                <h3>Phone</h3>
+                                <p>123-156-7890</p>
+                            </div>
+                            <div class="info">
+                                <h3>Address</h3>
+                                <p>3721 Single Street<br />Quincy, MA 02169</p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <label>Name</label><br />
+                        <input type="name" placeholder="Your name" /><br />
 
-            <h3>Phone</h3>
-            <p>123-156-7890</p>
+                        <label>Last name</label><br />
+                        <input type="name" placeholder="Your last name" /><br />
 
-            <h3>Address</h3>
-            <p>3721 Single Street<br />Quincy, MA 02169</p>
-        </article>
+                        <label>E-mail*</label><br />
+                        <input type="email" required placeholder="Your email adress" /><br />
 
-        <form>
-            <label>Name</label><br />
-            <input type="name" placeholder="Your name" /><br />
+                        <label>Message*</label><br />
+                        <textarea required placeholder="Enter your message"></textarea>
 
-            <label>Last name</label><br />
-            <input type="name" placeholder="Your last name" /><br />
-
-            <label>E-mail</label><br />
-            <input type="email" required="true" placeholder="Your email adress" /><br />
-
-            <label>Message</label><br />
-            <input type="textarea" required="true" placeholder="Enter your message" /><br />
-
-            <button type="submit">Submit</button>
-        </form>
-
-        <img src="#" alt="" />
+                        <div class="contact-button">
+                            <button type="submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="contact-img">
+                <img src="./assets/images/chasing-m2pro-rov.jpg" alt="CHASING M2 PRO ROV" />
+            </div>
+        </div>
     </main>
 
     <footer>
-        <div>
-            <p><a href="./home.html"><img src="./assets/images/ncaTrading-officialBlack.png" alt="NCA Trading Logo" width="12%"
-                        height="12%"></a></p>
-
-            <ul>
-                <li>
-                    <a href="">Facebook</a>
-                </li>
-                <li>
-                    <a href="">Instagram</a>
-                </li>
-                <li>
-                    <a href="">Twitter</a>
-                </li>
-            </ul>
-        </div>
-
-        <img src="#" alt="" />
+        <a href="./home.html"><img src="./assets/images/ncaTrading-officialBlack.png" alt="NCA Trading Logo"
+                width="100%" /></a>
+        <ul>
+            <li>
+                <a href="#"><img src="./assets/icon/facebook.png" alt="facebook" width="40px"></a>
+            </li>
+            <li>
+                <a href="#"><img src="./assets/icon/instagram.png" alt="instagram" width="40px"></a>
+            </li>
+            <li>
+                <a href="#"><img src="./assets/icon/twitter.png" alt="twitter" width="40px"></a>
+            </li>
+        </ul>
     </footer>
 </body>
 
