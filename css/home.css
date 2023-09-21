@@ -20,9 +20,11 @@ Seção de boas vindas
     color: #ffffff;
     font-size: 48px;
     font-weight: bold;
+    text-shadow: 2px 2px 6px #3a3a3a8e;
 }
 
 .wc-content p {
+    font-weight: 300;
     color: #ffffff;
 }
 
@@ -64,12 +66,13 @@ Seção inicial
 }
 
 .text-articles {
+    display: flex;
+    align-items: center;
     width: 32%;
 }
 
 .text-articles h6 {
     font-size: 14px;
-    padding-top: 48px;
     padding-bottom: 8px;
 }
 
@@ -106,8 +109,10 @@ Terceira seção
 Seção final
 ------------------------------------------------------------ */
 .last-text {
+    align-items: flex-start;
+    flex-direction: column;
     width: 60%;
-    margin-left: 144px;
+    margin-left: 8vw;
 }
 
 .last-article {
