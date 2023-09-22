@@ -11,7 +11,7 @@ Seção 'Sobre'
 }
 
 .about-section img {
-    width: 100%;
+
     height: 428px;
     object-fit: cover;
 }
@@ -101,6 +101,7 @@ Seção 'Nossos princípios'
     background-color: #6c839c4d;
     text-align: center;
     font-size: 18px;
+    margin-left: 8px;
 }
 
 .principles-text h4,
@@ -114,9 +115,7 @@ Seção 'Nossos princípios'
 }
 
 .texts {
-    padding-top: 56px;
-    padding-left: 42px;
-    padding-right: 42px;
+    padding: 36px 42px;
     line-height: 24px;
 }
 
