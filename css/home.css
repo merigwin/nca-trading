@@ -24,6 +24,7 @@ Seção de boas vindas
 }
 
 .wc-content p {
+    padding-top: 8px;
     font-weight: 300;
     color: #ffffff;
 }
