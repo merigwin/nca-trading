@@ -90,6 +90,13 @@ Media queries
     }
 }
 
+@media (max-width: 458px) {
+    .contact input,
+    .contact textarea {
+        width: 290px;
+    }
+}
+
 @media (max-width: 320px) {
     .contact input,
     .contact textarea {
