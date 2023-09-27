@@ -53,10 +53,7 @@ Largura máxima de 1242px
 
     .about-content {
         margin: 0;
-    }
-
-    /* Seção 'Equipe' */
-    
+    }    
 }
 
 /* ------------------------------------------------------------
@@ -100,6 +97,33 @@ Largura máxima de 1262px
 
     .principles-final {
         margin-bottom: 0;
+    }
+}
+
+/* ------------------------------------------------------------
+Largura máxima de 1164px
+------------------------------------------------------------ */
+@media (max-width: 1164px) {
+    .team-section {
+        height: 100%;
+        padding: 48px 32px;
+    }
+    
+    .team-article {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text-article {
+        margin-bottom: 24px;
+    }
+
+    .team-title {
+        width: 100%;
+    }
+
+    .team-first-title {
+        font-size: 32px;
     }
 }
 
