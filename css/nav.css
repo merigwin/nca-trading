@@ -73,7 +73,23 @@ nav {
         transition: all ease .3s;
     }
 
+    #footerPage {
+        bottom: 0;
+        left: 100%;
+        transition: all ease .3s;
+        
+    }
+
     .nav-bar>.menu.open {
+        transform: translateX(-100%);
+    }
+
+    main.open {
+        display: none;
+    }
+
+    footer.open {
+        position: fixed;
         transform: translateX(-100%);
     }
 

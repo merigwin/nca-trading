@@ -31,3 +31,14 @@ footer > a {
 footer a img {
     object-fit: cover;
 }
+
+/* Media query */
+@media (max-width: 420px) {
+    footer > a {
+        width: 96px;
+    }
+
+    footer ul li a img {
+        width: 32px;
+    }
+}
