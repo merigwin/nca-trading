@@ -23,8 +23,8 @@ Largura máxima de 1242px
     }
 
     .about-content img {
-        height: 100%;
         width: 100%;
+        object-position: center;
     }
 
     .content-container {
