@@ -5,6 +5,7 @@ body {
     text-align: center;
     background-color: #273f54;
     color: #ffffff;
+    line-height: 32px;
 }
 
 
@@ -16,11 +17,21 @@ p {
     font-weight: 300;
 }
 
-a {
-
-}
-
 button {
     font-family: 'Dic Sans';
     font-weight: bold;
+    margin-top: 18px;
+    font-size: 22px;
+    border: #ffffff solid 0.5px;
+    padding: 8px 16px;
+    border-radius: 5px;
+    background-color: #00000000;
+    color: #ffffff;
+    
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: #273f54;
+    transition-duration: 0.5s;
 }
