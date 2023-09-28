@@ -53,7 +53,7 @@ button {
 button:hover {
     background-color: #ffffff;
     color: #273f54;
-    transition-duration: 0.5s;
+    transition-duration: 0.1s;
 }
 
 @media (max-width: 768px) {
