@@ -146,7 +146,7 @@
 
         <section class="form-home">
             <div class="contact-content">
-                <form class="contact" method="POST" action="mailto:sales@ncatrading.com" enctype="text/plain">
+                <form class="contact" method="POST" action="https://api.staticforms.xyz/submit">
                     <h2>Contact us</h2>
 
                     <label>Name</label><br />
@@ -160,6 +160,10 @@
 
                     <label>Message*</label><br />
                     <textarea required placeholder="Enter your message"></textarea>
+
+                    <input type="hidden" name="accessKey" value="e6458a04-3870-4c68-a4d2-a082f76c1564" />
+                    <input type="hidden" name="redirectTo" value="./contact-success.html" />
+
                     <div class="submit-button">
                         <button type="submit">Submit</button>
                     </div>
