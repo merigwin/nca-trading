@@ -72,18 +72,23 @@
                     </article>
                 </div>
                 <div class="contact-form">
-                    <form method="post" action="mailto:sales@ncatrading.com">
+                    <form method="POST" action="https://api.staticforms.xyz/submit">
                         <label>Name</label><br />
-                        <input type="name" placeholder="Your name" /><br />
+                        <input type="name" name="name" placeholder="Your name" /><br />
 
                         <label>Last name</label><br />
-                        <input type="name" placeholder="Your last name" /><br />
+                        <input type="name" name="name" placeholder="Your last name" /><br />
 
                         <label>E-mail*</label><br />
-                        <input type="email" required placeholder="Your email adress" /><br />
+                        <input type="email" name="email" required placeholder="Your email adress" /><br />
 
                         <label>Message*</label><br />
-                        <textarea required placeholder="Enter your message"></textarea>
+                        <textarea required placeholder="Enter your message" name="message"></textarea>
+
+                        <input type="hidden" name="accessKey" value="e6458a04-3870-4c68-a4d2-a082f76c1564" />
+                        <input type="hidden" name="redirectTo"
+                            value="https://nca-trading.vercel.app/contact-success.html" />
+                            
                         <div class="contact-button">
                             <button type="submit">Submit</button>
                         </div>
