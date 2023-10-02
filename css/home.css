@@ -8,7 +8,7 @@ Seção de boas vindas
     height: 720px;
     align-items: center;
     justify-content: center;
-    background-image: url('../assets/images/container.png');
+    background-image: url('../assets/images/container.png'); /*reset 7f3769e06ea53a83676740f9b2d70717f5245e5e*/
     background-size: cover;
 }
 
