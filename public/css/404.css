@@ -54,6 +54,7 @@ button:hover {
     background-color: #ffffff;
     color: #273f54;
     transition-duration: 0.1s;
+    cursor: pointer;
 }
 
 @media (max-width: 768px) {
