@@ -1,0 +1,18 @@
+{
+    "version": 2,
+    "builds": [
+        {
+            "src": "ncaTrading/**", // Diretório do projeto
+            "use": "@vercel/static",
+            "config": {
+                "maxAge": 604800 // Defina o tempo máximo de cache em segundos (neste exemplo, 24 horas)
+            }
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "/index.html"
+        }
+    ]
+}
