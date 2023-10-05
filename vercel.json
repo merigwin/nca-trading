@@ -2,7 +2,7 @@
     "version": 2,
     "builds": [
         {
-            "src": "ncaTrading/**",
+            "src": "/**",
             "use": "@vercel/static",
             "config": {
                 "maxAge": 604800
