@@ -19,7 +19,7 @@
             "dest": "/public/$1"
         },
         {
-            "src": "/(.*)",
+            "src": "/",
             "dest": "/index.html"
         }
     ]
